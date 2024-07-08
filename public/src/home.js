@@ -1,5 +1,9 @@
 function getTotalBooksCount(books) {
-  // YOUR SOLUTION HERE
+  let count = 0;
+  for (let book in books) {
+   count ++;
+  }
+  return count;
 }
 
 function getTotalAccountsCount(accounts) {
