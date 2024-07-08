@@ -9,11 +9,19 @@ function findAccountById(accounts, id) {
 function sortAccountsByLastName(accounts) {
   // YOUR SOLUTION HERE
   // Hint: You can use the [`sort()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) method here. 
+
+  return accounts.sort((accountA, accountB) => {
+    const lastNameA = accountA.name.last.toLowerCase();
+    const lastNameB = accountB.name.last.toLowerCase();
+    return lastNameA > lastNameB ? 1 : -1;
+  });
 }
+
 
 function getAccountFullNames(accounts) {
   // YOUR SOLUTION HERE
   // Hint: You can use the [`map()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) method here.
+
 }
 
 // NOTE: YOU DON'T HAVE TO EDIT THE FUNCTIONS BELOW
