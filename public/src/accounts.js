@@ -22,7 +22,6 @@ function getAccountFullNames(accounts) {
   // Hint: You can use the [`map()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) method here.
 
   return accounts.map(account => `${account.name.first} ${account.name.last}`);
-
 }
 
 // NOTE: YOU DON'T HAVE TO EDIT THE FUNCTIONS BELOW
