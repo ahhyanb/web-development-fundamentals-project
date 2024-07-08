@@ -1,9 +1,9 @@
 function findAuthorById(authors, id) {
-  return authors.find(author => id === author.id)
+  return authors.find(author => id === author.id);
 }
 
 function findBookById(books, id) {
-  // YOUR SOLUTION HERE
+  return books.find(book => id === book.id);
 }
 
 // NOTE: YOU DON'T HAVE TO EDIT THE FUNCTIONS BELOW
